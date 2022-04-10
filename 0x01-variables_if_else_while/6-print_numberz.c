@@ -11,13 +11,13 @@
 
 int main(void)
 {
-	unsigned char number;
+	int number;
 
-	for (number = '0'; number <= '9'; number++)
+	for (number = 48; number <= 57; number++)
 	{
 		putchar(number);
 	}
-	printf("\n");
+	putchar("\n");
 	return (0);
 }
 
