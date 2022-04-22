@@ -2,14 +2,10 @@
 /**
  * rev_string - reverses a string
  * @s: variable to be used 
- *
  */
 void rev_string(char *s)
 {
-	int i;
-	int j;
-	int temp;
-	int length;
+	int i, j, temp, length; 
 
 	while (s[i] != 0)
 	{
