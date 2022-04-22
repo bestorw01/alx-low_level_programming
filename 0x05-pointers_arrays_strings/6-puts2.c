@@ -1,16 +1,19 @@
 #include "main.h"
 
 /**
- * puts2 - Prints every other character of a string, starting with the first
- * @str: pointer to first character of string
+ * puts2 - prints every other character of a  string to stdout
+ * @str: string to print
+ *
+ * Return: void
  */
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; *str && (i == 0 || *str[i - 1]); str += 2)
+	while (*(str + i))
 	{
-			_putchar(*str);
+		_putchar(*(str + i));
+		i = i + 2;
 	}
 	_putchar('\n');
 }
