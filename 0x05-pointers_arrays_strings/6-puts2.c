@@ -1,19 +1,22 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character of a  string to stdout
- * @str: string to print
- *
- * Return: void
- */
+* puts2 - Print all other char of a string
+* @str: A pointer to an int that will be changed
+*
+* Return: Void
+*/
 void puts2(char *str)
 {
-	int i = 0;
+	int i;
 
-	while (*(str + i))
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(*(str + i));
-		i = i + 2;
+		if (a % 2 == 0)
+		{
+			_putchar(str[a]);
+		}
+		_putchar('\n');
+
 	}
-	_putchar('\n');
 }
