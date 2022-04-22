@@ -1,12 +1,15 @@
 #include "main.h"
 /**
  * rev_string - reverses a string
- * @s: holi
+ * @s: variable to be used 
  *
  */
 void rev_string(char *s)
 {
-	int i, j, temp, length; 
+	int i;
+	int j;
+	int temp;
+	int length;
 
 	while (s[i] != 0)
 	{
